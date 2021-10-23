@@ -1,0 +1,54 @@
+
+
+.container{
+    margin: 0;
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-text{
+    margin: 5em 8em;
+    padding: 5em 8em;
+}
+
+.homepage-text h1{
+    font-size: 3em;
+    color: #4F98CA;
+    margin-bottom: 0.3em;
+}
+
+.homepage-text p{
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.4em; 
+    margin-top: 0.2em;
+}
+
+.search{
+    border-radius: 5px;
+    display: flex;    
+    width: 100%;
+    background: #FFF;
+    margin: 2em 0;
+    padding: 1em;
+    align-items: center;
+    box-shadow: 1px 3px 4px 4px rgba(194,194,194,0.78);
+}
+
+.search input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 0.5em;
+}
+
+@media screen and (max-width: 768px){
+    .homepage-text{
+        margin: 2em;
+        padding: 2em;
+    }
+}
