@@ -1,0 +1,34 @@
+.map-container{
+    display: flex;
+    padding: 2em;
+    height:100vh;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1em;
+  
+
+}
+
+.list h2{
+    color: #4F98CA;
+    margin: 1em 0;
+}
+
+.list select{
+    margin-right: 0.5em;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.div{
+    overflow: scroll;
+}

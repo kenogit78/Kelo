@@ -1,28 +1,118 @@
 .cards-container{
-    margin: 1em;
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.cards{
-    width: 250px;
-    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4em 0;
+    background: #fff9f9;
+}
+
+.cards-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1em 0;
+}
+
+
+
+.cards-header .select label{
+    color: #505050;
+    font-size: 0.9em;
+    margin-right: 0.3em;
+}
+
+.cards-header .select select{
+    margin: 0 0.5em;
+    border: none;
+    padding: 0.2em 0.3em 0.2em 0;
+    border-bottom: 1px solid #505050;
+    background: transparent;
+    font-size: 0.9em;
+    color: #505050;  
+}
+
+.cards-header .select select:hover{
+    
+    background: #4F98CA;
+    color: #fff9f9;
+    font-size: 0.9em;
+    color: #505050;  
+}
+
+.cards-header h1{
+    text-align: center;
+    margin: 0.5em 0;
+    color: #4F98CA;
+    font-size: 2.5em;
+}
+
+.cards-container span{
+    text-transform: capitalize;
+    
+}
+
+.cards-content{
+    margin: 1em;
     padding: 1em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width: 280px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     margin: 1em 1.5em;
     background: #fff;
     box-shadow: 1px 3px 4px 4px rgba(194,194,194,0.78);
+    
 
 }
 
 img{
-    height: 250px;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
+    object-fit: cover;
 
 }
 
+.cards-text{
+  width: 100%;
+    padding: 1em;
+    margin-left: 1em;
+    
+    /* text-align: center; */
+    
+}
+
+.cards-text h3{
+    font-size: 1.1em;
+    color: #4F98CA;
+}
+
+.cards-text p{
+    font-size: 0.8em;
+    color: #333;
+    margin: 0.5em 0;
+}
+.cards-text p span{
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+   
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+}

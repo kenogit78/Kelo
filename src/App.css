@@ -1,8 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 
 body{
   font-family: Lato;
+  width: 100vw;
+  /* max-width: 100%; */
+  object-fit: contain;
+  /* overflow-x: hidden; */
 }

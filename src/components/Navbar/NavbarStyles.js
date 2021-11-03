@@ -3,11 +3,13 @@ import { Link as LinkR } from 'react-router-dom'
 
 
 export const NavbarContainer = styled.div`
+  
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 1333px;
-    width: 100%;
+    max-width: 100%;
+
     padding: 1em;
     background: #fff;
     box-shadow: 1px 3px 4px 4px rgba(194,194,194,0.78);
