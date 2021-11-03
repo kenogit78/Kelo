@@ -10,6 +10,7 @@
     flex-direction: column;
     width: 30%;
     padding: 1em;
+   
   
 
 }
@@ -29,6 +30,7 @@
     
 }
 
-.div{
-    overflow: scroll;
+.map-cards-container{
+    height: 100vh;
+    overflow-y: scroll;
 }

@@ -27,11 +27,11 @@ function App() {
     })
   },[]);
 
-  useEffect(() => {
-    const filteredPlaces = hotels.filter((hotel) => hotel.rating > rating);
+  // useEffect(() => {
+  //   const filteredPlaces = hotels.filter((hotel) => hotel.rating > rating);
 
-    setFilteredPlaces(filteredPlaces)
-  },[rating]);
+  //   setFilteredPlaces(filteredPlaces)
+  // },[rating, hotels]);
 
 
 

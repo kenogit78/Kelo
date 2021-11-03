@@ -18,7 +18,7 @@ const Map = ({hotels, coordinates, setCoordinates, setBounds, type, setType, rat
     return (
         <div className={styles['map-container']}>
 
-            {/* <div className={styles['list']}>
+            <div className={styles['list']}>
                     <h2>Explore new places</h2>
                 <div>
                     
@@ -46,7 +46,7 @@ const Map = ({hotels, coordinates, setCoordinates, setBounds, type, setType, rat
                 </select>
                 </div>
 
-                <div className={styles['cards-container div']}>
+                <div className={styles['map-cards-container']}>
             {
                 hotels?.map((hotel) => (
                     hotel.name ? hotel.photo ? (
@@ -62,7 +62,7 @@ const Map = ({hotels, coordinates, setCoordinates, setBounds, type, setType, rat
         }
         </div>
                 
-            </div> */}
+            </div>
 
             <div className={styles['map']}>
             <GoogleMapReact
